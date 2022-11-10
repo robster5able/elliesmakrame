@@ -1,5 +1,5 @@
 #title{
-  background-color:#FFE7CC
+  background-color:#FFEFD6
 }
 
 /* montserrat-regular - latin */
@@ -16,6 +16,11 @@
        url('fonts/montserrat/montserrat-v25-latin-regular.svg#Montserrat') format('svg'); /* Legacy iOS */
 }
 
+body{
+  font-family: "Montserrat";
+  background-color:#FFEFD6;
+}
+
 h1{
   font-family: "Montserrat";
   line-height: 1.5;
@@ -23,4 +28,29 @@ h1{
 
 .container-fluid{
   padding: 3% 15%;
+}
+
+.navbar{
+/*  padding-bottom: 2.5rem;*/
+}
+
+.navbar-brand {
+
+}
+
+.icon-item{
+  padding: 0 10px 0 0;
+}
+
+.navbar-rob-custom{
+  background-color:#0E5E6F;
+}
+
+.button-rob-custom{
+  background-color:#F2DEBA;
+  margin: 0% 5% 5% 0%;
+}
+
+#features{
+  padding: 7% 15%;
 }
